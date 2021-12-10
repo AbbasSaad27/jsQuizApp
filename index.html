@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="linkToHighScore">
+        <a href="" class="viewHighScoreButton">View high scores</a>
+      </div>
+      <div class="timer-container">
+        <p class="timer-text">Time: <span class="timer">0</span></p>
+      </div>
+    </header>
+    <main class="page-container">
+      <section class="starting-page">
+        <h1 class="page-header title">Coding Quiz Challenge</h1>
+        <p class="tips-about-quiz">
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind that incorrect answers will penalize your
+          score/time by ten seconds!
+        </p>
+        <button class="btn btn-start" type="button">Start Quiz</button>
+      </section>
+      <section class="question-container">
+        <div class="ans-status">
+          <p class="ans-result"></p>
+        </div>
+      </section>
+      <section class="quiz-end">
+        <h1 class="end-title title">Quiz's finished!</h1>
+        <p class="congrats-n-score">
+          Congratulations! You've scored <span class="score"></span>!
+        </p>
+        <div class="btn-group">
+          <button type="button" class="btn btn-home">Home</button>
+          <button type="button" class="btn btn-retry">Try Again</button>
+        </div>
+      </section>
+      <section class="highScoreTable-container">
+        <h1 class="title">High Scores</h1>
+        <table class="highscoreTable">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Correct Answers</th>
+              <th>Wrong Answers</th>
+              <th>Score</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody class="table-body"></tbody>
+        </table>
+
+        <button type="button" class="btn btn-home">Home</button>
+      </section>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>

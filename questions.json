@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "What is the full form of JS?",
+    "options": ["JavaSerialization", "JavaSet", "JavaScript", "JoyStick"],
+    "answer": "JavaScript"
+  },
+  {
+    "id": 2,
+    "question": "Which one is 'function declaration'?",
+    "options": [
+      "var func = function(){}",
+      "var func = () => {}",
+      "(function(){})",
+      "function func(){}"
+    ],
+    "answer": "function func(){}"
+  },
+  {
+    "id": 3,
+    "question": "What is the syntax for arrow function?",
+    "options": [
+      "var func = () => {}",
+      "var func = function(){}",
+      "(function(){})",
+      "function func(){}"
+    ],
+    "answer": "var func = () => {}"
+  },
+  {
+    "id": 4,
+    "question": "The condition in a while loop is inclosed with",
+    "options": ["Square brackets", "Paranthesis", "Curly brackets", "Qoutes"],
+    "answer": "Paranthesis"
+  },
+  {
+    "id": 5,
+    "question": "Is JavaScript case-sensetive?",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "id": 6,
+    "question": "JavaScript and Java is same.",
+    "options": ["True", "False"],
+    "answer": "False"
+  },
+  {
+    "id": 7,
+    "question": "What is the way of declaring a variable in JS?",
+    "options": [
+      "v name = Max",
+      "variable name = Max",
+      "v:name = Max",
+      "var name = Mark"
+    ],
+    "answer": "var name = Mark"
+  },
+  {
+    "id": 8,
+    "question": "Which tag is used to include JS in HTML?",
+    "options": ["form", "script", "span", "scripting"],
+    "answer": "script"
+  },
+  {
+    "id": 9,
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": ["=", "$", "-", "*"],
+    "answer": "="
+  },
+  {
+    "id": 10,
+    "question": "Does external JS need script tag?",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  }
+]

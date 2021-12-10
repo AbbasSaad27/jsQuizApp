@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.header {
+  padding: 3rem 2rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.viewHighScoreButton {
+  color: #ba57e6;
+  text-decoration: none;
+}
+
+.starting-page,
+.quiz-end,
+.highScoreTable-container {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+.title {
+  font-size: 4rem;
+}
+
+.tips-about-quiz,
+.congrats-n-score {
+  font-size: 2rem;
+  width: 45%;
+  margin: 2rem auto;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.btn {
+  padding: 1rem 1.5rem;
+  background-color: #351c75;
+  border: none;
+  font-size: 1.6rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 1rem;
+  position: relative;
+  top: 0;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  top: -0.5rem;
+  background-color: #b365e5;
+}
+.btn:active {
+  top: -0.2rem;
+}
+
+.question-container {
+  width: 60%;
+  margin: 4rem auto 0;
+  display: none;
+}
+
+.question {
+  margin-bottom: 1rem;
+}
+
+.options {
+  width: fit-content;
+}
+
+.btn-option {
+  width: 100%;
+  text-align: left;
+}
+
+.ans-status {
+  padding: 1rem;
+  font-style: italic;
+  font-size: 1.8rem;
+  border-top: 2px solid rgb(231, 231, 231);
+  margin-top: 2rem;
+  transition: all 0.3s;
+}
+
+.ans-correct {
+  border-color: rgb(117, 255, 117);
+  color: rgb(117, 255, 117);
+}
+
+.ans-correct::after {
+  content: "Correct";
+}
+
+.ans-wrong {
+  border-color: rgb(255, 88, 88);
+  color: rgb(255, 88, 88);
+}
+
+.ans-wrong::after {
+  content: "Wrong";
+}
+
+.quiz-end,
+.highScoreTable-container {
+  display: none;
+}
+
+.highscoreTable {
+  font-size: 1.8rem;
+  font-weight: 500;
+  width: 50%;
+  margin: 2rem auto;
+}
+
+td,
+tr {
+  padding: 0.5rem;
+}
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 65%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  html {
+    font-size: 58%;
+  }
+  .highscoreTable {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tips-about-quiz,
+  .congrats-n-score {
+    width: 70%;
+  }
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 55%;
+  }
+  .highscoreTable {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+}
